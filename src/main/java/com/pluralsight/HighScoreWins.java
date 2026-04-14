@@ -28,21 +28,11 @@ public class HighScoreWins {
 
         if (homeScore > visitorScore){
             System.out.println("Winner: " + home);
-        }
-        else {
+        } else if (homeScore == visitorScore) {
+            System.out.println("It's a Tie!!!");
+        } else {
             System.out.println("Winner: " + visitor);
         }
-
-
-
-
-
-
-
-
-
-
-
 
     }
 }
